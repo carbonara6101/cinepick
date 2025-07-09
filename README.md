@@ -6,15 +6,10 @@ TMDB API를 활용한 영화 검색, 인기 영화, 상세 정보, 즐겨찾기 
 - **영화 검색**: 키워드로 영화 검색
 - **인기 영화**: TMDB 인기 영화 실시간 표시
 - **상세 정보**: 감독, 출연, 줄거리 등 상세 정보 제공
-- **즐겨찾기**: 로컬스토리지 기반 즐겨찾기(찜) 기능
 - **반응형 UI**: PC/모바일 모두 최적화
 
 ## 🚀 배포 주소
-- [https://your-site-name.netlify.app](https://your-site-name.netlify.app)
-
-## 🖥️ 데모 스크린샷
-![메인 화면](./screenshot-main.png)
-![상세 정보](./screenshot-detail.png)
+- [https://cine-pick.netlify.app/](https://cine-pick.netlify.app/)
 
 ## ⚙️ 사용 기술
 - React
