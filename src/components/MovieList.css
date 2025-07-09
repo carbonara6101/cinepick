@@ -1,0 +1,25 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 2rem;
+  padding: 2rem 2vw 2rem 2vw;
+  background: linear-gradient(135deg, #2d2e2f 0%, #1b1f24 100%);
+  border-radius: 18px;
+  min-height: 60vh;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .movie-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.1rem;
+    padding: 1rem 1vw;
+  }
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #888;
+  padding: 2rem 0;
+}
